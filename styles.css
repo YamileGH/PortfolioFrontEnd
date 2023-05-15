@@ -1,0 +1,65 @@
+.brillo{
+    filter: brightness(50%);
+}
+
+.footerlinks{
+    color: rgb(239, 245, 250);
+    text-decoration: none;
+}
+.footer-color{
+    background-color: rgb(30,79,109);
+}
+.button-color2{
+
+    background-color:rgb(150,201,62);
+}
+.button-color2:hover{
+    background-color:rgb(98, 131, 42);
+}
+
+.button-color1{
+    background-color: rgb(41,167,68);
+}
+
+.button-color1:hover{
+    background-color: rgb(22, 70, 29);
+}
+
+nav{
+    background-color: rgb(53,58,64);
+   
+}
+
+
+
+.pre{
+    position: relative;
+}
+.la-conferencia{
+    position: absolute;
+    z-index: 100;
+    top: 300px;
+    padding: 20px;
+    text-align: right;
+}
+@media only screen and (max-width: 1200px) {
+    .la-conferencia{
+        top: 100px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .la-conferencia{
+        top: 100px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .la-conferencia{
+        top: 10px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .la-conferencia{
+        position: static;
+        background-color: rgb(43,47,51);
+    }
+}
